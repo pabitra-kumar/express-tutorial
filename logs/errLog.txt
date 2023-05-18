@@ -1,0 +1,3 @@
+20230518	13:16:45	b97677f8-2cea-4548-8dc8-1972f9f83648	Error: ENOENT: no such file or directory, stat 'C:\Users\pabit\Desktop\Web Development\New folder\express-tutorial\routes\views\index.html'
+20230518	16:25:34	479ad5ef-9df7-454d-80a7-abce6639981f	SyntaxError: Unexpected token } in JSON at position 9
+20230518	16:26:06	b7621374-ae44-40ac-80c2-750f97518c06	SyntaxError: Unexpected token } in JSON at position 45
