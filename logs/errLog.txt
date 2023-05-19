@@ -1,3 +1,8 @@
 20230518	13:16:45	b97677f8-2cea-4548-8dc8-1972f9f83648	Error: ENOENT: no such file or directory, stat 'C:\Users\pabit\Desktop\Web Development\New folder\express-tutorial\routes\views\index.html'
 20230518	16:25:34	479ad5ef-9df7-454d-80a7-abce6639981f	SyntaxError: Unexpected token } in JSON at position 9
 20230518	16:26:06	b7621374-ae44-40ac-80c2-750f97518c06	SyntaxError: Unexpected token } in JSON at position 45
+20230519	22:02:34	84765076-ff10-463c-9fe9-4e8feb9e187c	TypeError: data.employees.length is not a function
+20230519	22:07:37	e6c60b5e-ac45-4a7c-9fe8-6c491b5a526d	ReferenceError: emp is not defined
+20230519	22:09:47	71469845-ced5-46cd-910f-0bc25af1b39f	TypeError: Cannot set properties of undefined (setting 'firstname')
+20230519	22:10:27	3c57b34e-9db2-4d5f-b801-eaaef67e7c7f	TypeError: false is not a function
+20230519	22:11:41	054499d8-563d-4871-8f77-4d18b41bf306	ReferenceError: emp is not defined
