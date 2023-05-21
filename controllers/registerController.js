@@ -11,7 +11,7 @@ const handleNewUser = async (req, res) => {
     const {user , pwd} = req.body
     if(!user || !pwd) return res.status(400).json({"message" : "username and password are required"})
     // check for duplicate username in the DB
-    const duplicate = userDB.find(prsn => prsn.username === user);
+    const duplicate = userDB.users.find(prsn => prsn.username === user);
     if(duplicate) return res.sendStatus(309) // Conflict
     try {
         // Encrypt the password
@@ -19,9 +19,10 @@ const handleNewUser = async (req, res) => {
         // Store the new User
         const newUser = {"username": user , "password": hashedPwd}
         userDB.setUsers([...userDB.users , newUser])
+        console.log(userDB.users)
         await fsPromises.writeFile(
             path.join(__dirname , ".." , "data" , "users.json"),
-            userDB.users
+            JSON.stringify(userDB.users)
         )
         console.log(userDB.users)
         res.status(201).json({"success": `new user ${user} is created`})
