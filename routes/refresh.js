@@ -3,6 +3,6 @@ const router = express.Router()
 
 const refreshController = require("../controllers/refreshTokenController")
 
-router.post("/" , refreshController.handleRefreshToken)
+router.get("/" , refreshController.handleRefreshToken)
 
 module.exports = router
