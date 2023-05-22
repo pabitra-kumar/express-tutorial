@@ -213,3 +213,6 @@
 20230522	21:04:20	c2cbb70e-7498-4c8d-a279-3b969acf7433	GET	undefined	/refresh
 20230522	21:04:34	ae0df0d9-2419-445d-93f6-60c95b624868	GET	undefined	/employees
 20230522	21:04:52	e03087f0-abbf-4a13-adc4-06d6e89ce870	POST	undefined	/employees
+20230522	21:09:33	e178cb84-19e0-472f-a1e5-1dc1dfc47b35	GET	undefined	/refresh
+20230522	21:09:34	22271b54-a656-4b18-9589-39d64f494430	GET	undefined	/refresh
+20230522	21:09:43	c79015bd-064d-4627-9434-d3c12a22e392	GET	undefined	/logout
